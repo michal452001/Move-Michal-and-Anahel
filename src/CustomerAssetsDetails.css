@@ -1,0 +1,33 @@
+.table-container {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+.CustomerAssetsDetails {
+    background-image: url('./photos/CustomerAssetsDetailsback.jpg'); /* Adjust path as necessary */
+    background-size: cover; /* Cover the entire area of the element */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Optional: Fixed background on scroll */
+    min-height: 100vh; /* Minimum height to cover the full viewport */
+    width: 100%;
+    position: relative; /* Establishes a stacking context for z-index */
+}
+h1 {
+    font-size: 40px;
+    color: darkblue;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
